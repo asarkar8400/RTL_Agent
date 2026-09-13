@@ -19,6 +19,8 @@ Give it a spec like "a 4-bit synchronous up-counter with clock, reset, and a 4-b
 
 This is essentially a mini agentic loop, plan, act, check, reflect, repeat, applied to hardware design instead of software.
 
+[Watch the demo](./rtl_agent.mp4)
+
 ## Why This Matters
 
 Writing RTL is slow and error-prone even for experienced engineers, and verifying it (writing testbenches, running simulations, debugging waveforms) often takes longer than writing the RTL itself. This project explores whether an LLM can close that loop on its own: not just generating a first-draft module, but treating compiler errors and failed simulations as feedback it can act on, the same way a human engineer iterates.
