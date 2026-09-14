@@ -19,7 +19,7 @@ Give it a spec like "a 4-bit synchronous up-counter with clock, reset, and a 4-b
 
 This is essentially a mini agentic loop, plan, act, check, reflect, repeat, applied to hardware design instead of software.
 
-[Watch the demo](./rtl_agent.mp4)
+[Watch the demo](./demo.gif)
 
 ## Why This Matters
 
